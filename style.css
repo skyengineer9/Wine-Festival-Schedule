@@ -1,0 +1,53 @@
+/* General page styling */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #242f44; /* Dark background for contrast */
+  font-family: sans-serif;
+}
+
+/* Styling for the main header */
+h1.header {
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48; /* Goldish color for text */
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px; /* Space below the header */
+}
+
+/* Table and text styling */
+table, th, td {
+  margin: auto; /* Center the table */
+  color: white; /* White text */
+  border: 2px solid #8c6b48; /* Goldish border color */
+  width: 500px;
+  border-collapse: collapse; /* Collapse borders for neatness */
+  text-align: center;
+}
+
+/* Styling for the table header */
+h1.table-header {
+  background-color: white;
+  color: #8c6b48; /* Matching header color */
+  height: 50px;
+  padding: 8px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the text */
+}
+
+/* Styling for table data cells */
+td {
+  padding: 15px; /* Add padding for spacing */
+  text-align: left; /* Left-align event details */
+}
+
+/* Table layout styling */
+table {
+  margin-top: 20px;
+  margin: 0 auto; /* Center the table */
+}
